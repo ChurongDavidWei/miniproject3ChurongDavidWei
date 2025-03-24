@@ -1,3 +1,19 @@
+'''
+Name: Churong'David'Wei
+Class: INF601_VA
+Project: miniproject3
+'''
+
+
+'''
+INF601 - Programming in Python
+Assignment # mini project 3
+I,     Churong'David'Wei    , affirm that the work submitted for this assignment is entirely my own. I have not engaged in any form of academic dishonesty, including but not limited to cheating, plagiarism, or the use of unauthorized materials. I have neither provided nor received unauthorized assistance and have accurately cited all sources in adherence to academic standards. I understand that failing to comply with this integrity statement may result in consequences, including disciplinary actions as determined by my course instructor and outlined in institutional policies. By signing this statement, I acknowledge my commitment to upholding the principles of academic integrity.
+'''
+
+
+
+
 # Import requests
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
