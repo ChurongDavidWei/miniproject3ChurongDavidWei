@@ -1,0 +1,163 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border-color: #007bff;
+}
+
+
+.modal-content {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 2px solid #ccc;
+}
+
+.modal-body {
+    background-color: #fff;
+}
+
+
+.card {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.centeredbox {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+    gap: 15px;
+}
+
+
+.btn-link {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+
+.btn-link:hover {
+    background-color: #0056b3;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
