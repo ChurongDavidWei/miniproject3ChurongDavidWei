@@ -1,14 +1,13 @@
-# miniproject1Churong-David-Wei
+# miniproject3ChurongDavidWei
 
 # Discription
-This python program can get closing price of stock you demanded in 10 days, in the code existed, I used apple, google, microsoft, tesla, and amazon as examples, then the program will store these prices in numpy arrarys, and use matplotlib to generate a graph for each of them and store these graph in charts/ path.
+This code made a Flask web app with 5 pages, containing a register and login system, it also has a dashboard page and function of reset password, I modified the pages with css file to make it looks nicer.
 
 # How to install required libraries
 excute in console
-pip install yfinance
-pip install numpy
-pip install matplotlib
+pip install flask
+
+also, you can see requirements.txt for more information
 
 # How to use this program
-type the code of stock you want to look at in the tickers
-run the peogram you should see the graphs 
+direct to the path of ...\FlaskProject, then excute console in the directry, type python app.py in the console, then go to browser, go to 127.0.0.1:5000, which is where the flask app runs.
